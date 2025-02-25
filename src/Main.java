@@ -1,5 +1,10 @@
+import java.util.ArrayList;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("I'm in Master Branch.");
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Nuray");
+        list.add("Aghazade");
+        System.out.println(FirstElement.getFirstElement(list));
     }
 }
